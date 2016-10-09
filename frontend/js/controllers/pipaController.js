@@ -15,7 +15,7 @@
 
         }
 
-        $scope.sair = function(){
+        $scope.apagar = function(){
             localStorage.removeItem('token');
         }
 
