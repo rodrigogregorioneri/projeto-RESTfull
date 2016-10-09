@@ -1,0 +1,14 @@
+{
+  "name": "frontend Sossego",
+  "authors": [
+    "rodrigogregorioneri <rodrigogregorioneri@hotmail.com>"
+  ],
+  "description": "Projeto entrevista",
+  "main": "index.html",
+  "license": "no",
+  "homepage": "no",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8"
+  }
+}

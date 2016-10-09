@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="sossego">
+<head>
+    <meta charset="UTF-8">
+    <title>Sossego teste</title>
+    <!-- css-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Angular -->
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/services/pipaAPI.js"></script>
+    <script type="text/javascript" src="js/controllers/pipaController.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class=""text-center> </h1>
+        <form role="form" ng-controller="pipaController"> 
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="cor" ng-model="pipa.cor">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="tamanho" ng-model="pipa.tamanho">  
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="preco" ng-model="pipa.preco">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="foto" ng-model="pipa.foto">
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-default" ng-click="crud(pipa)">Acessar</button>
+                <button type="button" class="btn btn-danger" ng-click="sair()">Logout</button>
+            </div>
+        </form>
+        <hr>
+        <table class="table">
+            <tr>
+                <th>Cor</th>
+                <th>Tamanho</th>
+                <th>Preco</th>
+                <th>Foto</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
